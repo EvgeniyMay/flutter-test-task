@@ -1,1 +1,1 @@
-My test task
+My solution of Solid Software test-task
