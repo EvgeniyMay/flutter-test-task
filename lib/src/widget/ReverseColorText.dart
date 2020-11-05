@@ -1,17 +1,17 @@
 import "package:flutter/material.dart";
 
-class ColorfulText extends StatefulWidget {
+class ReverseColorText extends StatefulWidget {
 
   final Color bgColor;
   final String text = "Hey there";
 
-  ColorfulText({Key key, this.bgColor = Colors.black}) : super(key: key);
+  ReverseColorText({Key key, this.bgColor = Colors.black}) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() => _ColorfulTextState();
+  State<StatefulWidget> createState() => _ReverseColorTextState();
 }
 
-class _ColorfulTextState extends State<ColorfulText> {
+class _ReverseColorTextState extends State<ReverseColorText> {
   @override
   Widget build(BuildContext context) {
     return Container(

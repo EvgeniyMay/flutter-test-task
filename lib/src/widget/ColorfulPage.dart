@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 import "dart:math";
 
-import "ColorfulText.dart";
+import "ReverseColorText.dart";
 
 class ColorfulPage extends StatefulWidget {
   @override
@@ -21,7 +21,7 @@ class _ColorfulPageState extends State<ColorfulPage> {
             onTap: updateBgColor,
             child: Container(
               //color: bgColor,
-                child: ColorfulText(bgColor: bgColorStart),
+                child: ReverseColorText(bgColor: bgColorStart),
                 decoration: BoxDecoration(
                     gradient: LinearGradient(
                         begin: Alignment.topCenter,
